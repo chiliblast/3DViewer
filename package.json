@@ -1,0 +1,19 @@
+{
+  "name": "3D Viewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "3DViewer.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mkdirp": "^0.5.1",
+    "multiparty": "^4.2.1",
+    "rimraf": "^2.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node 3DViewer.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

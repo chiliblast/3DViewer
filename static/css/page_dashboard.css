@@ -1,0 +1,153 @@
+
+#page_dashboard_2D {
+    position: absolute;
+    left: 100px;
+    top: 5px;
+}
+
+
+#productions {
+    background-color: #fff;
+    opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+    border: 2px solid #fff;
+    font-family: brandon-grot-w01-light,sans-serif;
+}
+#productions th, #productions td { 
+    padding : 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#productions tr:hover {/*background-color:#fefefe*/
+    border: 2px solid #000
+}
+
+#tools {
+    position: absolute;
+    right: 100px;
+    top: 10px;
+}
+#tools input {
+    margin-left: 10px
+}
+
+    #toolbar {
+        background: #fff;
+        padding: 4px;
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        color:#5b5a5a;
+        font-size: 12px;
+        font-family: brandon-grot-w01-light,sans-serif;
+        border-radius: 0px;
+        opacity: 0.7;
+        filter: alpha(opacity=70); /* For IE8 and earlier */
+    }
+    #toolbar input {
+        vertical-align: middle;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+   /* background-color: rgb(0,0,0); /* Fallback color */
+   /* background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 10px;
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.img-zoom-container {
+    position: relative;
+}
+
+.img-zoom-lens {
+    position: absolute;
+    border: 0px solid #d4d4d4;
+    /*set the size of the lens:*/
+    width: 40px;
+    height: 40px;
+}
+
+.img-zoom-result {
+    border: 1px solid #d4d4d4;
+    /*set the size of the result div:*/
+    width: 300px;
+    height: 300px;
+    display:none;
+    background-image: url('../img/no-image.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/*overwrite bootstrap*/
+.btn-primary {
+    color: #fff;
+    background-color: #e68735;
+    border-color: #e68735;
+    border-radius: 0px;
+}
+
+/*overwrite cesium*/
+.cesium-infoBox-title {
+    background: #fff;
+    border-radius: 0px;
+    opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+    color: #5b5a5a;
+}
+.cesium-infoBox-description {
+    font-family: brandon-grot-w01-light,sans-serif;
+    color: #5b5a5a;
+    background: #fff;
+    border-radius:0px;
+    opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+.cesium-infoBox {
+    width: 40%;
+    max-width: 480px;
+    background: #fff;
+    color: #5b5a5a;
+    border: 0px;
+    border-right: none;
+    border-radius: 0px;
+    box-shadow: 0 0 0px 0px #000;
+    opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+.cesium-viewer {
+    font-family: brandon-grot-w01-light,sans-serif;
+}

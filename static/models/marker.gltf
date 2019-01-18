@@ -1,0 +1,529 @@
+{
+    "accessors": {
+        "accessor_16": {
+            "bufferView": "bufferView_62",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 36,
+            "type": "SCALAR"
+        },
+        "accessor_18": {
+            "bufferView": "bufferView_63",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 24,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                -1,
+                -1,
+                -1
+            ],
+            "type": "VEC3"
+        },
+        "accessor_20": {
+            "bufferView": "bufferView_63",
+            "byteOffset": 288,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 24,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                -1,
+                -1,
+                -1
+            ],
+            "type": "VEC3"
+        },
+        "accessor_36": {
+            "bufferView": "bufferView_62",
+            "byteOffset": 72,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 36,
+            "type": "SCALAR"
+        },
+        "accessor_38": {
+            "bufferView": "bufferView_63",
+            "byteOffset": 576,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 24,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                -1,
+                -1,
+                -1
+            ],
+            "type": "VEC3"
+        },
+        "accessor_40": {
+            "bufferView": "bufferView_63",
+            "byteOffset": 864,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 24,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                -1,
+                -1,
+                -1
+            ],
+            "type": "VEC3"
+        },
+        "accessor_56": {
+            "bufferView": "bufferView_62",
+            "byteOffset": 144,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 36,
+            "type": "SCALAR"
+        },
+        "accessor_58": {
+            "bufferView": "bufferView_63",
+            "byteOffset": 1152,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 24,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                -1,
+                -1,
+                -1
+            ],
+            "type": "VEC3"
+        },
+        "accessor_60": {
+            "bufferView": "bufferView_63",
+            "byteOffset": 1440,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 24,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                -1,
+                -1,
+                -1
+            ],
+            "type": "VEC3"
+        }
+    },
+    "animations": {},
+    "asset": {
+        "generator": "collada2gltf@d0bbe4ce1ac0dea2efee7bb5a4d1b9e3345c3efe",
+        "premultipliedAlpha": true,
+        "profile": "WebGL 1.0.2",
+        "version": 0.8
+    },
+    "bufferViews": {
+        "bufferView_62": {
+            "buffer": "marker",
+            "byteLength": 216,
+            "byteOffset": 0,
+            "target": 34963
+        },
+        "bufferView_63": {
+            "buffer": "marker",
+            "byteLength": 1728,
+            "byteOffset": 216,
+            "target": 34962
+        }
+    },
+    "buffers": {
+        "marker": {
+            "byteLength": 1944,
+            "type": "arraybuffer",
+            "uri": "data:application/octet-stream;base64,AAABAAIAAwAEAAUABgAHAAgACQAKAAsADAANAA4ADwAQABEAEgAAAAIAEwADAAUAFAAGAAgAFQAJAAsAFgAMAA4AFwAPABEAAAABAAIAAwAEAAUABgAHAAgACQAKAAsADAANAA4ADwAQABEAEgAAAAIAEwADAAUAFAAGAAgAFQAJAAsAFgAMAA4AFwAPABEAAAABAAIAAwAEAAUABgAHAAgACQAKAAsADAANAA4ADwAQABEAEgAAAAIAEwADAAUAFAAGAAgAFQAJAAsAFgAMAA4AFwAPABEAAACAvwAAgD8AAIA/AACAvwAAgD8AAIC/AACAvwAAgL8AAIC/AACAPwAAgD8AAIA/AACAPwAAgD8AAIC/AACAvwAAgD8AAIC/AACAPwAAgL8AAIA/AACAPwAAgL8AAIC/AACAPwAAgD8AAIC/AACAvwAAgL8AAIA/AACAvwAAgL8AAIC/AACAPwAAgL8AAIC/AACAvwAAgD8AAIC/AACAPwAAgD8AAIC/AACAPwAAgL8AAIC/AACAPwAAgD8AAIA/AACAvwAAgD8AAIA/AACAvwAAgL8AAIA/AACAvwAAgL8AAIA/AACAvwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgL8AAIA/AACAvwAAgL8AAIC/AACAPwAAgL8AAIA/AACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AACAvwAAAAAAAAAAAAAAAAAAgD8AAAAAAACAPwAAAAAAAAAAAAAAAAAAgL8AAAAAAAAAAAAAAAAAAIC/AAAAAAAAAAAAAIA/AACAvwAAgD8AAIA/AACAvwAAgD8AAIC/AACAvwAAgL8AAIC/AACAPwAAgD8AAIA/AACAPwAAgD8AAIC/AACAvwAAgD8AAIC/AACAPwAAgL8AAIA/AACAPwAAgL8AAIC/AACAPwAAgD8AAIC/AACAvwAAgL8AAIA/AACAvwAAgL8AAIC/AACAPwAAgL8AAIC/AACAvwAAgD8AAIC/AACAPwAAgD8AAIC/AACAPwAAgL8AAIC/AACAPwAAgD8AAIA/AACAvwAAgD8AAIA/AACAvwAAgL8AAIA/AACAvwAAgL8AAIA/AACAvwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgL8AAIA/AACAvwAAgL8AAIC/AACAPwAAgL8AAIA/AACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AACAvwAAAAAAAAAAAAAAAAAAgD8AAAAAAACAPwAAAAAAAAAAAAAAAAAAgL8AAAAAAAAAAAAAAAAAAIC/AAAAAAAAAAAAAIA/AACAvwAAgD8AAIA/AACAvwAAgD8AAIC/AACAvwAAgL8AAIC/AACAPwAAgD8AAIA/AACAPwAAgD8AAIC/AACAvwAAgD8AAIC/AACAPwAAgL8AAIA/AACAPwAAgL8AAIC/AACAPwAAgD8AAIC/AACAvwAAgL8AAIA/AACAvwAAgL8AAIC/AACAPwAAgL8AAIC/AACAvwAAgD8AAIC/AACAPwAAgD8AAIC/AACAPwAAgL8AAIC/AACAPwAAgD8AAIA/AACAvwAAgD8AAIA/AACAvwAAgL8AAIA/AACAvwAAgL8AAIA/AACAvwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgL8AAIA/AACAvwAAgL8AAIC/AACAPwAAgL8AAIA/AACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AACAvwAAAAAAAAAAAAAAAAAAgD8AAAAAAACAPwAAAAAAAAAAAAAAAAAAgL8AAAAAAAAAAAAAAAAAAIC/AAAAAAAAAAAAAIA/"
+        }
+    },
+    "materials": {
+        "Material-effect": {
+            "instanceTechnique": {
+                "technique": "technique0",
+                "values": {
+                    "ambient": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "diffuse": [
+                        0.64,
+                        0.000743204,
+                        0.00145779,
+                        1
+                    ],
+                    "emission": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "shininess": 50,
+                    "specular": [
+                        0.5,
+                        0.5,
+                        0.5,
+                        1
+                    ]
+                }
+            },
+            "name": "Material"
+        },
+        "Material_001-effect": {
+            "instanceTechnique": {
+                "technique": "technique0",
+                "values": {
+                    "ambient": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "diffuse": [
+                        0.0023436,
+                        0.00439518,
+                        0.64,
+                        1
+                    ],
+                    "emission": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "shininess": 50,
+                    "specular": [
+                        0.5,
+                        0.5,
+                        0.5,
+                        1
+                    ]
+                }
+            },
+            "name": "Material_001"
+        },
+        "Material_002-effect": {
+            "instanceTechnique": {
+                "technique": "technique0",
+                "values": {
+                    "ambient": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "diffuse": [
+                        0.00140707,
+                        0.64,
+                        0,
+                        1
+                    ],
+                    "emission": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "shininess": 50,
+                    "specular": [
+                        0.5,
+                        0.5,
+                        0.5,
+                        1
+                    ]
+                }
+            },
+            "name": "Material_002"
+        }
+    },
+    "meshes": {
+        "Cube_001-mesh": {
+            "name": "Cube.001",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_20",
+                        "POSITION": "accessor_18"
+                    },
+                    "indices": "accessor_16",
+                    "material": "Material_002-effect",
+                    "primitive": 4
+                }
+            ]
+        },
+        "Cube_002-mesh": {
+            "name": "Cube.002",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_40",
+                        "POSITION": "accessor_38"
+                    },
+                    "indices": "accessor_36",
+                    "material": "Material_001-effect",
+                    "primitive": 4
+                }
+            ]
+        },
+        "Cube_003-mesh": {
+            "name": "Cube.003",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_60",
+                        "POSITION": "accessor_58"
+                    },
+                    "indices": "accessor_56",
+                    "material": "Material-effect",
+                    "primitive": 4
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "blue": {
+            "children": [],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0.01,
+                0,
+                0,
+                0,
+                0,
+                0.01,
+                0,
+                -1,
+                0,
+                0,
+                1
+            ],
+            "meshes": [
+                "Cube_002-mesh"
+            ],
+            "name": "blue"
+        },
+        "green": {
+            "children": [],
+            "matrix": [
+                0.01,
+                0,
+                0,
+                0,
+                0,
+                0.01,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                -1,
+                1
+            ],
+            "meshes": [
+                "Cube_001-mesh"
+            ],
+            "name": "green"
+        },
+        "node_3": {
+            "children": [
+                "green",
+                "blue",
+                "red"
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "name": "Y_UP_Transform"
+        },
+        "red": {
+            "children": [],
+            "matrix": [
+                0.01,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0.01,
+                0,
+                0,
+                1,
+                0,
+                1
+            ],
+            "meshes": [
+                "Cube_003-mesh"
+            ],
+            "name": "red"
+        }
+    },
+    "programs": {
+        "program_0": {
+            "attributes": [
+                "a_normal",
+                "a_position"
+            ],
+            "fragmentShader": "marker0FS",
+            "vertexShader": "marker0VS"
+        }
+    },
+    "scene": "defaultScene",
+    "scenes": {
+        "defaultScene": {
+            "nodes": [
+                "node_3"
+            ]
+        }
+    },
+    "shaders": {
+        "marker0FS": {
+            "type": 35632,
+            "uri": "data:text/plain;base64,cHJlY2lzaW9uIGhpZ2hwIGZsb2F0Owp2YXJ5aW5nIHZlYzMgdl9ub3JtYWw7CnVuaWZvcm0gdmVjNCB1X2FtYmllbnQ7CnVuaWZvcm0gdmVjNCB1X2RpZmZ1c2U7CnVuaWZvcm0gdmVjNCB1X2VtaXNzaW9uOwp1bmlmb3JtIHZlYzQgdV9zcGVjdWxhcjsKdW5pZm9ybSBmbG9hdCB1X3NoaW5pbmVzczsKdm9pZCBtYWluKHZvaWQpIHsKdmVjMyBub3JtYWwgPSBub3JtYWxpemUodl9ub3JtYWwpOwp2ZWM0IGNvbG9yID0gdmVjNCgwLiwgMC4sIDAuLCAwLik7CnZlYzQgZGlmZnVzZSA9IHZlYzQoMC4sIDAuLCAwLiwgMS4pOwp2ZWM0IGVtaXNzaW9uOwp2ZWM0IGFtYmllbnQ7CnZlYzQgc3BlY3VsYXI7CmFtYmllbnQgPSB1X2FtYmllbnQ7CmRpZmZ1c2UgPSB1X2RpZmZ1c2U7CmVtaXNzaW9uID0gdV9lbWlzc2lvbjsKc3BlY3VsYXIgPSB1X3NwZWN1bGFyOwpkaWZmdXNlLnh5eiAqPSBtYXgoZG90KG5vcm1hbCx2ZWMzKDAuLDAuLDEuKSksIDAuKTsKY29sb3IueHl6ICs9IGRpZmZ1c2UueHl6Owpjb2xvci54eXogKz0gZW1pc3Npb24ueHl6Owpjb2xvciA9IHZlYzQoY29sb3IucmdiICogZGlmZnVzZS5hLCBkaWZmdXNlLmEpOwpnbF9GcmFnQ29sb3IgPSBjb2xvcjsKfQo="
+        },
+        "marker0VS": {
+            "type": 35633,
+            "uri": "data:text/plain;base64,cHJlY2lzaW9uIGhpZ2hwIGZsb2F0OwphdHRyaWJ1dGUgdmVjMyBhX3Bvc2l0aW9uOwphdHRyaWJ1dGUgdmVjMyBhX25vcm1hbDsKdmFyeWluZyB2ZWMzIHZfbm9ybWFsOwp1bmlmb3JtIG1hdDMgdV9ub3JtYWxNYXRyaXg7CnVuaWZvcm0gbWF0NCB1X21vZGVsVmlld01hdHJpeDsKdW5pZm9ybSBtYXQ0IHVfcHJvamVjdGlvbk1hdHJpeDsKdm9pZCBtYWluKHZvaWQpIHsKdmVjNCBwb3MgPSB1X21vZGVsVmlld01hdHJpeCAqIHZlYzQoYV9wb3NpdGlvbiwxLjApOwp2X25vcm1hbCA9IHVfbm9ybWFsTWF0cml4ICogYV9ub3JtYWw7CmdsX1Bvc2l0aW9uID0gdV9wcm9qZWN0aW9uTWF0cml4ICogcG9zOwp9Cg=="
+        }
+    },
+    "skins": {},
+    "techniques": {
+        "technique0": {
+            "parameters": {
+                "ambient": {
+                    "type": 35666
+                },
+                "diffuse": {
+                    "type": 35666
+                },
+                "emission": {
+                    "type": 35666
+                },
+                "modelViewMatrix": {
+                    "semantic": "MODELVIEW",
+                    "type": 35676
+                },
+                "normal": {
+                    "semantic": "NORMAL",
+                    "type": 35665
+                },
+                "normalMatrix": {
+                    "semantic": "MODELVIEWINVERSETRANSPOSE",
+                    "type": 35675
+                },
+                "position": {
+                    "semantic": "POSITION",
+                    "type": 35665
+                },
+                "projectionMatrix": {
+                    "semantic": "PROJECTION",
+                    "type": 35676
+                },
+                "shininess": {
+                    "type": 5126
+                },
+                "specular": {
+                    "type": 35666
+                }
+            },
+            "pass": "defaultPass",
+            "passes": {
+                "defaultPass": {
+                    "details": {
+                        "commonProfile": {
+                            "extras": {
+                                "doubleSided": false
+                            },
+                            "lightingModel": "Phong",
+                            "parameters": [
+                                "ambient",
+                                "diffuse",
+                                "emission",
+                                "modelViewMatrix",
+                                "normalMatrix",
+                                "projectionMatrix",
+                                "shininess",
+                                "specular"
+                            ]
+                        },
+                        "type": "COLLADA-1.4.1/commonProfile"
+                    },
+                    "instanceProgram": {
+                        "attributes": {
+                            "a_normal": "normal",
+                            "a_position": "position"
+                        },
+                        "program": "program_0",
+                        "uniforms": {
+                            "u_ambient": "ambient",
+                            "u_diffuse": "diffuse",
+                            "u_emission": "emission",
+                            "u_modelViewMatrix": "modelViewMatrix",
+                            "u_normalMatrix": "normalMatrix",
+                            "u_projectionMatrix": "projectionMatrix",
+                            "u_shininess": "shininess",
+                            "u_specular": "specular"
+                        }
+                    },
+                    "states": {
+                        "enable": [
+                            2884,
+                            2929
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,97 @@
+<script type="text/javascript" src="/static/js/page_dashboard.js"></script>
+<script type="text/javascript" src="/static/js/measure.js"></script>
+<script type="text/javascript" src="/static/js/draw.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/css/page_dashboard.css" />
+
+<input id="fileUploadButton" type="image" src="/static/img/file-upload-icon.png" data-toggle="tooltip" data-placement="bottom" title="Upload Production">
+<div id="page_dashboard_2D">
+   <table id="productions">
+        <tr>
+          <th>Productions</th>
+          <th>Block</th>
+          <th></th>
+        </tr>
+        <!--<tr>
+          <td>Name1</td>
+          <td>Location1</td>
+          <td><button type="button" class="btn btn-outline-secondary">Open</button></td>
+        </tr>-->
+    </table>
+</div>
+
+<div id="page_dashboard_3D" style="display: none">
+    <div id="toolbar">
+        <table>
+            <tbody>
+                <tr>
+                    <th>JOB NAME:</th>
+                    <td id="jobName"></td>
+                </tr>
+                <!--<tr>
+                    <th>LOCATION:</th>
+                    <td></td>
+                </tr>-->
+            </tbody>
+        </table>
+        <hr>
+        <table>
+            <tbody>
+                <tr>
+                    <td><h3>Layers</h3></td>
+                </tr>
+                <tr>
+                    <td>RRU/TTA/BOB</td>
+                    <td><input id="rruttabobCheckBox" type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Dishes</td>
+                    <td><input id="dishesCheckBox" type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Antennas</td>
+                    <td><input id="antennasCheckBox" type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Rust</td>
+                    <td><input id="rustCheckBox" type="checkbox"></td>
+                </tr>
+                <tr>
+                        <td><h3>Views</h3></td>
+                </tr>
+                <tr>
+                    <td>Main</td>
+                    <td><input id="mainCheckBox" type="checkbox"></td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </div>
+
+
+    <div style="position: absolute; top: 250px; right:5px">
+        <div class="img-zoom-container">
+            <!-- The Modal -->
+            <div id="imageModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <img id="zoomImage" width="100%" src="">
+                </div>
+
+            </div>
+            <div id="zoomResult" class="img-zoom-result"></div>
+        </div>
+    </div>
+
+    <div id="tools">
+        <input id="drawButton" type="image" src="/static/img/draw-icon.png" data-toggle="tooltip" data-placement="bottom" title="Draw">
+        <input id="measureButton" type="image" src="/static/img/measure-icon.png" data-toggle="tooltip" data-placement="bottom" title="Measure">
+        <input type="image" src="/static/img/camera-icon.png">
+        <input id="cursorButton" type="image" src="/static/img/cursor-icon.png" data-toggle="tooltip" data-placement="bottom" title="Cursor">
+    </div>
+</div>
+
+
+
+        

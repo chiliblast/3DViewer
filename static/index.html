@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Use correct character set. -->
+  <meta charset="utf-8">
+  <!-- Tell IE to use the latest, best version. -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Make the application on mobile take up the full browser screen and disable user scaling. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+  <title>3D Viewer</title>
+  <link rel="stylesheet" type="text/css" href="/static/css/style.css" />
+  <script src="/static/Cesium-1.50/Cesium.js"></script>
+  <script type="text/javascript" src="/static/js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="/static/js/index.js"></script>
+  <script type="text/javascript" src="/static/js/mouse.js"></script>
+  <script type="text/javascript" src="/static/js/main.js"></script>
+  <script src="/static/js/popper.min.js"></script>
+  <link rel="stylesheet" href="/static/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="/static/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <style>
+      @import url(/static/Cesium-1.50/Widgets/widgets.css);
+      .cesium-infoBox{
+          max-width: 400px;
+      }
+      button.cesium-infoBox-camera {
+          display: none;
+      }
+      .creditContainer {
+        width: 200px;
+        height: 64px;
+        position: fixed;
+        z-index: 99999;
+        background: url(/static/img/skysolutions.webp) 100% 100% no-repeat;
+        background-size: cover;
+        bottom: 10px;
+        left: 10px
+    }
+    #fileUploadButton {
+      position: absolute;
+      left: 65px;
+      top: 13px;
+    }
+  </style>
+</head>
+<body>
+  <div id="cesiumContainer"></div>
+  <div class="creditContainer"></div>
+  <div id="LatLon"></div>
+  <!--<button style="position: absolute;left:5px;top: 5px" onclick="viewer.camera.lookAtTransform(Cesium.Matrix4.IDENTITY)">Pan</button>-->
+  <script>
+    $( document ).ready(function() { 
+   		$.get("/static/html/page_dashboard.html", function(html) {
+            $("body").append(html);
+      });
+                                
+    })
+    
+    if (typeof Cesium !== "undefined") {
+        startup(Cesium);
+    }     
+  </script>
+</body>
+</html>
